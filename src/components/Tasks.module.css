@@ -1,0 +1,110 @@
+.taskContainer{  
+    width: 50%;
+    height: 17.93rem;
+    margin-top: 5.68rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.taskContainer header{
+    height: 1.18rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.taskContainer header p{
+    display: flex;
+    gap: 0.5rem;
+    font-size: 0.875rem;
+    font-weight: 700;
+}
+
+.taskContainer header p:first-child{   
+    color: var(--blue-300);   
+}
+
+.taskContainer header p:nth-child(2){   
+    color: var(--blue-500);   
+}
+
+.taskContainer header p span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--gray-400);
+    font-weight: 700;
+    color:  var(--gray-200);
+    border-radius: 8px;
+    font-size: 0.75rem;
+    padding: 1px 8px;
+}
+
+.taskContent{
+    min-height: 15.25rem;
+    border-top: 1px solid #333333;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.taskContentWithoutBorder{
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.createTask{
+    position: absolute;
+    width: 50%;
+    height: 3.375rem;
+    background: transparent;
+    display: flex;
+    gap: 0.5rem;
+    left: 25%;
+    top: -1.68rem;
+}
+
+.createTask input{
+    height: 100%;
+    width: 100%;
+    border: 1px solid #0D0D0D;
+    border-radius: 8px;
+    background-color: var(--gray-500);
+    padding-left: 1rem;
+    line-height: 1.4;
+    color: var(--gray-100);
+
+}
+
+.createTask input::placeholder{
+    color: var(--gray-300);
+}
+
+.createTask input:focus{
+    border-color: var(--purple-500);
+}
+
+.createTask button{
+    height: 100%;
+    width: 5.625rem;
+    font-size: 0.875rem;
+    font-weight: 700;
+    background: var(--blue-500);
+    border-radius: 8px;
+    color: var(--gray-100);
+    border: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.3rem;
+    transition: 0.3s;
+}

@@ -1,0 +1,12 @@
+.containerApp{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ position: relative;
+}
+
+
+
+.createTask button:hover{
+    background: var(--blue-300);
+}
